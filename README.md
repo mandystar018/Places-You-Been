@@ -1,6 +1,6 @@
-# _{Application Name}_
+# _Places You've Been_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Website with a list of placed you have visited, 08/24/2020_
 
 #### By _**Amanda Otero & Jeff Dinsmore**_
 
@@ -8,26 +8,29 @@
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
 
-Describe: Place(location)
-Test: "Returns the inputted location when the first location 'Switzerland' is added to a the constant "place'"
-Expect: (Place(location)).toEqual(Switzerland);
+Describe: Place Switzerland
 
+Spec 1: "When the user click's place Switzerland it will show a full description of location, landmark, time of year and notes"
+* Input: "Switzerland"
+* Output: "Switzerland, Schilthorn Mountain, September, 2003", "Ate cheese and bread on top of the mountain""
 
-Describe: Place(location)
+Describe: Place 2 New Zealand
 
-Spec 1: "Returns the inputted location when the first location 'Paris, France' is added to a the const "place"
-* Input Location: "Paris, France"
-* Output: Place {location: "Paris, France"}
+Spec 2: "When the user click's place New Zealand it will show a full description of location, landmark, time of year and notes"
+* Input: "New Zealand"
+* Output:"New Zealand", "Wellington", "February, 2019", "Saw a kiwi"
 
-Describe: Place(landmarks)
+Describe: Place 3 Thailand
 
-Spec 2: "Returns the inputted landmarks when the first landmarks 'Eiffel Tower' is added to a the const "place"
-* Input landmarks: "Eiffel Tower"
-* Output: Place {landmarks: "Eiffel Tower"}
+Spec 3: "When the user click's place Thailand it will show a full description of location, landmark, time of year and notes"
+* Input: "Thailand"
+* Output: "Thailand", "Bangkok", "February, 2016", "Had a Thai Massage"
 
-The program recognizes vowels in a multiple-word sentence, regardless of capitalization.
-* Input Example: "CATS CATERED THE EVENT"
-* Output Example: 7
+Describe: Place 4 Paris
+
+Spec 4: "When the user click's place France it will show a full description of location, landmark, time of year and notes"
+* Input: "France"
+* Output: "Paris, France", "Eiffel Tower", "September, 2019", "Ate a Burger"
 
 ## Setup/Installation Requirements
 
