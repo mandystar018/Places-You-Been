@@ -2,11 +2,32 @@
 
 #### _{Brief description of application}, {Date of current version}_
 
-#### By _**Amanda Otero**_
+#### By _**Amanda Otero & Jeff Dinsmore**_
 
 ## Description
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+
+Describe: Place(location)
+Test: "Returns the inputted location when the first location 'Switzerland' is added to a the constant "place'"
+Expect: (Place(location)).toEqual(Switzerland);
+
+
+Describe: Place(location)
+
+Spec 1: "Returns the inputted location when the first location 'Paris, France' is added to a the const "place"
+* Input Location: "Paris, France"
+* Output: Place {location: "Paris, France"}
+
+Describe: Place(landmarks)
+
+Spec 2: "Returns the inputted landmarks when the first landmarks 'Eiffel Tower' is added to a the const "place"
+* Input landmarks: "Eiffel Tower"
+* Output: Place {landmarks: "Eiffel Tower"}
+
+The program recognizes vowels in a multiple-word sentence, regardless of capitalization.
+* Input Example: "CATS CATERED THE EVENT"
+* Output Example: 7
 
 ## Setup/Installation Requirements
 
@@ -15,6 +36,8 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * _in a simple_
 * _easy-to-understand_
 * _format_
+
+# Specs 
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 

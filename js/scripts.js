@@ -23,19 +23,26 @@ function Place(location, landmarks, timeOfYear, notes) {
   this.notes = notes;
 }
 
-
-
-// addressBook.addContact(contact);
-// addressBook.addContact(contact2);
-// addressBook.addContact(contact3);
-
+// User Interface Logic -------------------
 let placesVisited = new PlacesVisited();
 let place = new Place("Switzerland", "Schilltorn Mountain", "September, 2003", "Ate cheese and bread on top of the mountain");
 let place2 = new Place("New Zealand", "Wellington", "February, 2019", "Saw a kiwi");
+let place3 = new Place("Thailand", "Bangkok", "February, 2016", "Had a Thai Massage");
+
 
 placesVisited.addPlace(place);
 placesVisited.addPlace(place2);
+placesVisited.addPlace(place3);
+// placesVisited.addPlace(place4);
+// placesVisited.addPlace(place5);
+// placesVisited.addPlace(place6);
+// placesVisited.addPlace(place7);
+// placesVisited.addPlace(place8);
+// placesVisited.addPlace(place9);
+
 console.log (place);
+console.log (place2);
+console.log (place3);
 
 $(document).ready(function(){
 
